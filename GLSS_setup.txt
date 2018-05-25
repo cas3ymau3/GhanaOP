@@ -1,0 +1,69 @@
+Creating the `raw_data' and `documentation' folders
+
+Wave 1: 
+- Ghana Statistical Service (GSS) project url: http://www.statsghana.gov.gh/nada/index.php/catalog/7
+- GSS data download url: http://www.statsghana.gov.gh/nada/index.php/catalog/7/get_microdata
+- Zipped data file: GLSS1-1988.zip
+- World Bank Microdata documentation url: http://microdata.worldbank.org/index.php/catalog/2313/related_materials
+- DATA EXTRACT: extract `GLSS1-1988.zip' to `GLSS1-1988' in `~/GLSS/raw_data' folder 
+
+Wave 2: 
+- Ghana Statistical Service (GSS) project url: http://www.statsghana.gov.gh/nada/index.php/catalog/4
+- GSS data download url: http://www.statsghana.gov.gh/nada/index.php/catalog/4/get_microdata
+- Zipped data File: GLSS2-1989.zip
+- World Bank Microdata documentation url: http://microdata.worldbank.org/index.php/catalog/2314/get_microdata
+- DATA EXTRACT: extract `GLSS2-1989.zip' to `GLSS2-1989' in `~/GLSS/raw_data' folder 
+
+Wave 3: 
+- Ghana Statistical Service (GSS) project url: http://www.statsghana.gov.gh/nada/index.php/catalog/12
+- GSS data download url: http://www.statsghana.gov.gh/nada/index.php/catalog/12/get_microdata
+- Zipped data File: glss3.zip
+- World Bank Microdata documentation url: http://microdata.worldbank.org/index.php/catalog/2315/related_materials
+- DATA EXTRACT: extract `glss3.zip' to `glss3' in `~/GLSS/raw_data' folder 
+- RENAME: rename `glss3' folder to `GLSS3-1991' 
+
+Wave 4: 
+- Ghana Statistical Service (GSS) project url: http://www.statsghana.gov.gh/nada/index.php/catalog/14
+- GSS data download url: http://www.statsghana.gov.gh/nada/index.php/catalog/14/get_microdata
+- Zipped data File: GLSS4-1998.zip
+- World Bank Microdata documentation url: http://microdata.worldbank.org/index.php/catalog/2331
+- DATA EXTRACT: extract `GLSS4-1998.zip' to `GLSS4-1998' in `~/GLSS/raw_data' folder 
+
+Wave 5: 
+- Ghana Statistical Service (GSS) url: http://www.statsghana.gov.gh/nada/index.php/catalog/5
+- Data download urls: 
+	- GSS: http://www.statsghana.gov.gh/nada/index.php/catalog/5/get_microdata
+		- Two files: (i) GLSS5-Data.zip, (ii) G5-price.zip
+		- Last modified: Mar 21, 2016
+	- World Bank: http://microdata.worldbank.org/index.php/catalog/1064/get_microdata
+		- Data in STATA
+		- GHA_2006_GLSS_v01_M_v01_A_SHIP_Stata8.zip
+		- SHIP Harmonized version 
+		- Last modified Dec 09, 2014
+- World Bank Microdata documentation url: http://microdata.worldbank.org/index.php/catalog/1064/related_materials
+- DATA EXTRACT: 
+	1. Create folder `GLSS5-2006' in `~/GLSS/raw_data' 
+	2. Extract `GLSS-Data.zip', `G5-price.zip' and `GHA_2006_GLSS_v01_M_v01_A_SHIP_Stata8.zip' 
+	   to folders of the same name in `~/GLSS/raw_data/GLSS5-2006' folder 
+
+Wave 5+: 
+- World Bank project/documentation url: http://microdata.worldbank.org/index.php/catalog/2281
+- Millenium Challenge Corporation (MCC) project url: http://microdata.worldbank.org/index.php/catalog/2281/related_materials
+- MCC documentation url: https://data.mcc.gov/evaluations/index.php/catalog/81/related_materials
+- MCC data dowload url: https://data.mcc.gov/evaluations/index.php/catalog/81/get_microdata
+	- Zipped files: 
+		1. `Ghana GLSS5+ Community Survey Data.zip' 
+		2. `Ghana GLSS5+ Household Survey Part 1 Data.zip'
+		3. `Ghana GLSS5+ Household Survey Part 2 Data.zip' 
+- DATA EXTRACT: 
+	1. Create folder `GLSS5-2008' in `~/GLSS/raw_data'
+	2. Extract (1), (2), and (3) above to folders of the same name in `~/GLSS/raw_data/GLSS5-2008'  
+
+
+Wave 6: 
+- Ghana Statistical Service (GSS) project/documentation url: http://www.statsghana.gov.gh/nada/index.php/catalog/72
+- GSS data download url: http://www.statsghana.gov.gh/nada/index.php/catalog/72/get_microdata
+- Zipped file: `GLSS6_2012-2013.zip'
+- DATA EXTRACT: 
+	1. Create folder `GLSS6-2013' in `~/GLSS/raw_data'
+	2. Extract files in `GLSS6_2012-2013.zip' to `~/GLSS/raw_data/GLSS6-2013'
